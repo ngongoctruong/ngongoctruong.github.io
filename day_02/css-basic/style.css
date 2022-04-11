@@ -1,32 +1,14 @@
-body {
-    font-family: "Roboto";
-}
+/* Một số thuộc tính CSS hay được sử dụng */
 
-h2 {
-    color: blue;
-}
+font-size : Chỉ định kích thước chữ
+font-family : Chỉ định kiểu font
+font-style : Chỉ định kiểu hiển thị của chữ
+color : Màu chữ
+background-color : Chỉ định background-color
+margin : Khoảng cách giữa các phần tử
+padding : Khoảng cách từ nội dung --> border
+box-sizing : Đảm bảo kích thước thật của phần tử
+border : Viền của phần tử
+border-radius : bo viền của phần tử
+display : Chỉ định kiểu hiển thị
 
-#heading {
-    color: red;
-}
-
-.title {
-    color: cadetblue;
-}
-
-h2#heading {
-    color: darkgoldenrod;
-}
-
-h2#heading.title {
-    color: darkorchid;
-}
-
-body h2#heading.title {
-    color :green;
-}
-
-.icon {
-    color: darkgoldenrod;
-    font-size: 30px;
-}

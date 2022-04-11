@@ -1,0 +1,25 @@
+.tieude h2 {
+    font-size: 2.25rem;
+    margin-top: 17px;
+}
+.tieude p {
+    margin: 20px 0 0;
+    
+    
+}
+*{
+    text-align: center;
+    padding: 5px;
+    background-color: white;
+    box-sizing: border-box;
+    border: 0px 500px 500px;
+    
+    
+
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.nut a {
+    text-decoration: none;
+}

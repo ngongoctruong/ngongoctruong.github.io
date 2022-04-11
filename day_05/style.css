@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: bisque;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: flex-end;
+    height: 600px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.item{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    color: #fff;
+    font-size: 2rem;
+    border: 1px solid #000 ;
+    text-align: center;
+    line-height: 100px;
+    align-self: center;
+}
+.item-1{
+    order:4;
+    flex-basis: 300px;
+    align-self: center;
+}
+
