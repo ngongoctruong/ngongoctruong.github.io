@@ -1,0 +1,89 @@
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    margin: 0;
+}
+.phong{
+    background-color: #FEF9F7;
+    width:400px;
+    min-height:100vh;
+    padding: 20px;
+    display: block;
+    font-family: 'Quicksand', sans-serif;
+    line-height: 25px;
+    font-size: 15px;  
+    
+    justify-content: flex-start;
+    position: fixed;
+   
+
+    
+   
+}
+.name{
+    color: green;
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+.menu{
+    font-size: 20px;
+    
+    
+
+}
+.menu a{
+    display: block;
+    padding: 20px;
+}
+
+.xahoi {
+    font-size: 30px;
+    padding:20px;  
+    position: absolute;
+    bottom:0;
+}
+.xahoi a{
+    padding:30px;    
+}
+.anh{
+    display: flex;
+    align-items: center;
+    margin-left: 400px;
+   
+
+}    
+.anh >img{
+    height: 100vh;
+
+}
+#gt{
+    position: relative;
+    /* overflow: hidden; */
+}
+#gt img{
+   margin-left: 400px;
+   height: 100vh;
+   position: absolute;
+
+  
+}
+#gioithieu1 {
+    margin-left: 400px;
+    
+    position: absolute;
+    padding: 40px;
+    color: rgb(193, 199, 204);
+    font-size: 40px;
+    transform: translateY(2500px);
+    transition-duration: 1s;
+}
+#gt:hover #gioithieu1{
+    transform: translateY(0);
+}

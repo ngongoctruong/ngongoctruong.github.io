@@ -1,0 +1,17 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: tomato;
+    margin: auto;
+    padding: 10px;
+    overflow: hidden;
+}
+.box p{
+    transform: translateY(250px);
+    transition-duration: 1s;
+}
+.box:hover p{
+    transform: translateY(0);
+}
+
+
